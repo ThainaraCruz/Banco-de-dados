@@ -10,7 +10,7 @@ CREATE TABLE tb_categorias (
 CREATE TABLE tb_produtos (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255),
-    valor DECIMAL(10, 2),
+    valor DECIMAL,
     quantidade INT,
     data_validade DATE,
     categoria_id BIGINT,
