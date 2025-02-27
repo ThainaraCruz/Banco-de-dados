@@ -4,7 +4,7 @@ USE db_construindo_vidas;
 CREATE TABLE tb_categorias (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     tipo VARCHAR(255),
-    descricao TEXT
+    descricao VARCHAR(255)
 );
 
 CREATE TABLE tb_produtos (
